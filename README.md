@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Wedding Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A mobile responsive website I made for my wedding with React and `react-bootstrap`
 
-## Available Scripts
+Live demo: [https://taniach.github.io/wedding-site/](https://taniach.github.io/wedding-site/)
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+- Cover photo
+- Countdown to the big day
+- Event details
+- RSVP feature for guests attending physically, virtually or unable to attend
+- Google Sheets as database
+- Story cards with images
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+After you clone, `cd wedding-site` to enter the project directory.
 
-### `yarn test`
+Run `npm install` to install dependencies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Replace the images in `src\img` with your own images.
 
-### `yarn build`
+Create `config.json` in `src` directory. This is already added to `.gitignore`. Create the following variables:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `ENDPOINT`: This is the URL to post your RSVP data to. I followed [this nocodeapi link](https://nocodeapi.com/integrate-google-sheets-with-your-feedback-form) and created an account to post data to Google Sheets. The endpoint should be of the format: `<your_google_sheet_nocodeapi_endpoint>?tabId=`
+- `IN_PERSON`: Tab name to store data for guests attending in person - I try not to have any spaces/special characters for sheet names
+- `VIRTUALLY`: Tab name to store data for guests attending virtually
+- `UNABLE`: Tab name for guests unable to attend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In my Google Sheets, the columns are:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `IN_PERSON`: Datetime, Name, Email, Phone number, Message for couple
+- `VIRTUALLY`: Datetime, Name, Email, Message for couple
+- `UNABLE`: Datetime, Name, Message for couple
 
-### `yarn eject`
+You may edit the above according to your requirements but remember to change the code in `src/components/RSVP.js`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Run `npm start` the app in the development mode. It will open [http://localhost:3000](http://localhost:3000) and you can view it in the browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The page will reload if you make edits.
