@@ -9,11 +9,12 @@ Live demo: [https://taniach.github.io/wedding-site/](https://taniach.github.io/w
 - Cover photo
 - Countdown to the big day
 - Event details
+- Link to get directions to venue with Google Maps
 - RSVP feature for guests attending physically, virtually or unable to attend
 - Google Sheets as database
 - Story cards with images
 
-### Getting Started
+## Getting Started
 
 After you clone, `cd wedding-site` to enter the project directory.
 
@@ -28,6 +29,24 @@ Create `config.json` in `src` directory. This is already added to `.gitignore`. 
 - `VIRTUALLY`: Tab name to store data for guests attending virtually
 - `UNABLE`: Tab name for guests unable to attend
 
+Run `npm start` the app in the development mode. It will open [http://localhost:3000](http://localhost:3000) and you can view it in the browser.
+
+The page will reload if you make edits.
+
+### Theme colours and styling
+
+Edit `App.scss` and `custom.scss` to set your preferred fonts, colours and styles.
+
+### Countdown
+
+Enter your wedding date and time in `Countdown.js`.
+
+### Directions to venue
+
+I followed [this article](https://aiocollective.com/blog/how-to-add-a-link-to-google-maps-with-directions/) to get a link to Google Maps with directions.
+
+### Google Sheets Columns
+
 In my Google Sheets, the columns are:
 
 - `IN_PERSON`: Datetime, Name, Email, Phone number, Message for couple
@@ -35,7 +54,3 @@ In my Google Sheets, the columns are:
 - `UNABLE`: Datetime, Name, Message for couple
 
 You may edit the above according to your requirements but remember to change the code in `src/components/RSVP.js`
-
-Run `npm start` the app in the development mode. It will open [http://localhost:3000](http://localhost:3000) and you can view it in the browser.
-
-The page will reload if you make edits.
