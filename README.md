@@ -54,3 +54,13 @@ In my Google Sheets, the columns are:
 - `UNABLE`: Datetime, Name, Message for couple
 
 You may edit the above according to your requirements but remember to change the code in `src/components/RSVP.js`
+
+## Deploying to GitHub pages
+
+1. In `package.json`, set the `homepage` field as your site URL.
+2. Ensure that your GitHub repository source branch in Settings is set to `gh-pages /(root)`.
+2. Push changes to `master`.
+3. `npm run deploy`
+4. Wait for a few minutes to view your page.
+
+The `gh-pages` dependency publishes pages to the `gh-pages` branch on GitHub.
