@@ -41,9 +41,8 @@ function Story() {
                         She was visiting Manchester on a solo trip and I thought I will have lunch with her and look around the city with her. 
                         I was pretty alone there anyway - away from friends and family. 
                         I decided to meet her at the train station. I got a little late. When I met her in Manchester, the first thought that occurred to me was "Wow, she is so beautiful!". 
-                        How come I didn't notice this back when I met her in Singapore. 
                         We spent a day together roaming around Manchester. The more we spoke to each other, the closer we felt to each other. 
-                        I saw the friendly, jovial and bubbly side of her. She saw the driven, ambitious and adventurous side of me. 
+                        I saw the friendly, humble, jovial and bubbly side of her.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -80,8 +79,10 @@ function Story() {
                 </Card.Text> 
 
                 <Card.Text>During the course of our relationship, we have been through our fair share of pain and struggles. 
-                At the start, my parents disapproved due to caste differences as Tania is Bengali, while I am Tamil, from the Chettiar community but
-                as time passed by, they accepted us more.
+                Besides the typical challenges most couples face, we had to keep our relationship a secret because we knew 
+                my parents would disapprove of us due to caste differences. Tania is Bengali, while I am Tamil, 
+                from the Chettiar community. Eventually, when we told them, they were upset as I went against the 
+                expectations they had for my marriage.
                 </Card.Text>
                 </Card.Body>
             </Card>
@@ -90,7 +91,7 @@ function Story() {
                 <Card.Body>
                     <Card.Title>23rd October 2020</Card.Title>
                     <Card.Text>
-                    My parents finally agreed to book an auspicious date for our marriage. 
+                    My parents finally accepted us and agreed to book an auspicious date for our marriage. 
                     It was one of the happiest days of our lives! 
                     Many fights, tears and struggles later, we are here today, 
                     our love for each other stronger than ever before, and seeking the 
