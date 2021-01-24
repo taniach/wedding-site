@@ -41,7 +41,7 @@ function Story() {
                     <Card.Title>2nd April 2016</Card.Title>
                     <Card.Text>
                         She was visiting Manchester on a solo trip and I thought I will have lunch with her and look around the city with her. 
-                        I was pretty alone there anyway - away from friends and family. 
+                        I was alone there anyway - away from friends and family. 
                         I decided to meet her at the train station. I got a little late. When I met her in Manchester, the first thought that occurred to me was "Wow, she is so beautiful!". 
                         We spent a day together roaming around Manchester. The more we spoke to each other, the closer we felt to each other. 
                         I saw the friendly, humble, jovial &amp; bubbly side of her.
@@ -53,9 +53,9 @@ function Story() {
                     <Card.Body>
                     <Card.Title>5th April 2016</Card.Title>
                     <Card.Text>
-                        We had another date at Brighton 3 days later, a short distance away from London. 
+                        We met again at Brighton 3 days later, a short distance away from London. 
                         We explored the Royal pavilion, Brighton beach, went on the ferris wheel just above the sea, 
-                        and even on a romantic candlelight dinner. It was a day to remember. 
+                        and even went for dinner at a cosy restaurant. It was a day to remember. 
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -96,7 +96,7 @@ function Story() {
                     My parents finally accepted us and agreed to book an auspicious date for our marriage. 
                     It was one of the happiest days of our lives! 
                     Many fights, tears and struggles later, we are here today, 
-                    our love for each other stronger than ever before, and seeking the 
+                    our love for each other stronger than ever. We seek the 
                     blessing of all our friends and family on our wedding day.
                     </Card.Text>
                 </Card.Body>
