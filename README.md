@@ -11,6 +11,7 @@ Live demo: [https://taniach.github.io/wedding-site/](https://taniach.github.io/w
 - Event details
 - Link to get directions to venue with Google Maps
 - RSVP feature for guests attending physically, virtually or unable to attend
+- Invite code for guests attending physically
 - Google Sheets as database
 - Story cards with images
 
@@ -28,6 +29,7 @@ Create `config.json` in `src` directory. This is already added to `.gitignore`. 
 - `IN_PERSON`: Tab name to store data for guests attending in person - I try not to have any spaces/special characters for sheet names
 - `VIRTUALLY`: Tab name to store data for guests attending virtually
 - `UNABLE`: Tab name for guests unable to attend
+- `INVITE_CODES`: Array of invite codes
 
 Run `npm start` the app in the development mode. It will open [http://localhost:3000](http://localhost:3000) and you can view it in the browser.
 
@@ -49,7 +51,7 @@ I followed [this article](https://aiocollective.com/blog/how-to-add-a-link-to-go
 
 In my Google Sheets, the columns are:
 
-- `IN_PERSON`: Datetime, Name, Email, Phone number, Message for couple
+- `IN_PERSON`: Datetime, Name, Phone number, Invite Code, Message for couple
 - `VIRTUALLY`: Datetime, Name, Email, Message for couple
 - `UNABLE`: Datetime, Name, Message for couple
 
