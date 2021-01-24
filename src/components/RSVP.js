@@ -1,15 +1,16 @@
 import React from 'react';
 import { Form, Col, Button, Alert } from 'react-bootstrap';
-import { ENDPOINT, IN_PERSON, VIRTUALLY, UNABLE } from './../config.json';
+import { ENDPOINT, IN_PERSON, VIRTUALLY, UNABLE, INVITE_CODES } from './../config.json';
 
 class RSVP extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          attending: IN_PERSON,
+          attending: VIRTUALLY,
           name: "",
           email: "",
           phoneNumber: "",
+          inviteCode: "",
           message: "",
           showSuccessAlert: false,
           showErrorAlert: false,
@@ -21,6 +22,7 @@ class RSVP extends React.Component {
         this.setShowSuccessAlert = this.setShowSuccessAlert.bind(this);
         this.setShowErrorAlert = this.setShowErrorAlert.bind(this);
         this.handleValidation = this.handleValidation.bind(this);
+        this.isValidInviteCode = this.isValidInviteCode.bind(this);
     }
 
     handleInputChange(event) {
@@ -46,13 +48,17 @@ class RSVP extends React.Component {
 
         switch (this.state.attending) {
             case IN_PERSON:
-                if (!this.state.phoneNumber){
+                if (!this.state.phoneNumber) {
                     formIsValid = false;
                     errors["phoneNumber"] = "Phone number cannot be empty";
                 }
+                if (!this.isValidInviteCode(this.state.inviteCode)) {
+                    formIsValid = false;
+                    errors["inviteCode"] = "Invite code is not valid";
+                }
                 break;
             case VIRTUALLY:
-                if (!this.state.email){
+                if (!this.state.email) {
                     formIsValid = false;
                     errors["email"] = "Email cannot be empty";
                 }
@@ -66,6 +72,10 @@ class RSVP extends React.Component {
         });
 
         return formIsValid;
+    }
+
+    isValidInviteCode(inviteCode) {
+        return INVITE_CODES.includes(inviteCode.toLowerCase().trim());
     }
 
     async handleSubmit(event) {
@@ -83,10 +93,12 @@ class RSVP extends React.Component {
                             + ("0" + currentdate.getHours()).slice(-2) + ":"
                             + ("0" + currentdate.getMinutes()).slice(-2) + ":"
                             + ("0" + currentdate.getSeconds()).slice(-2);
+
+                const inviteCode = this.state.inviteCode.toLowerCase().trim();
     
                 switch (this.state.attending) {
                     case IN_PERSON:
-                        data = [[datetime, this.state.name, this.state.email, this.state.phoneNumber, this.state.message]];
+                        data = [[datetime, this.state.name, this.state.phoneNumber, inviteCode, this.state.message]];
                         break;
                     case VIRTUALLY:
                         data = [[datetime, this.state.name, this.state.email, this.state.message]];
@@ -140,19 +152,19 @@ class RSVP extends React.Component {
                         <Form.Check inline 
                                     type="radio" 
                                     name="attending"
-                                    value={IN_PERSON}
-                                    checked={this.state.attending === IN_PERSON}
+                                    value={VIRTUALLY}
+                                    checked={this.state.attending === VIRTUALLY}
                                     onChange={this.handleInputChange} />
-                        I'll attend physically
+                        I'll attend virtually
                         </label>
                         <label>
                         <Form.Check inline 
                                     type="radio" 
                                     name="attending"
-                                    value={VIRTUALLY}
-                                    checked={this.state.attending === VIRTUALLY}
+                                    value={IN_PERSON}
+                                    checked={this.state.attending === IN_PERSON}
                                     onChange={this.handleInputChange} />
-                        I'll attend virtually
+                        I'll attend physically
                         </label>
                         <label>
                         <Form.Check inline 
@@ -176,10 +188,10 @@ class RSVP extends React.Component {
                                       onChange={this.handleInputChange} />
                         <span style={{color: "red"}}>{this.state.validationErrors["name"]}</span>
                     </Form.Group>
-                    {(this.state.attending === IN_PERSON || this.state.attending === VIRTUALLY) &&
+                    {(this.state.attending === VIRTUALLY) &&
                     <Form.Group as={Col} controlId="formGridEmail">
                         <Form.Control type="email" 
-                                      placeholder="Enter email"
+                                      placeholder="Email"
                                       name="email"
                                       value={this.state.email}
                                       onChange={this.handleInputChange} />
@@ -188,13 +200,22 @@ class RSVP extends React.Component {
                 </Form.Row>
 
                 {this.state.attending === IN_PERSON &&
-                <Form.Group controlId="formGridNumGuests">
-                    <Form.Control placeholder="Phone Number"
-                                  name="phoneNumber"
-                                  value={this.state.phoneNumber}
-                                  onChange={this.handleInputChange} />
-                    <span style={{color: "red"}}>{this.state.validationErrors["phoneNumber"]}</span>
-                </Form.Group>}
+                <Form.Row>
+                    <Form.Group as={Col} controlId="formGridPhoneNumber">
+                        <Form.Control placeholder="Phone Number"
+                                    name="phoneNumber"
+                                    value={this.state.phoneNumber}
+                                    onChange={this.handleInputChange} />
+                        <span style={{color: "red"}}>{this.state.validationErrors["phoneNumber"]}</span>
+                    </Form.Group>
+                    <Form.Group as={Col} controlId="formGridInviteCode">
+                        <Form.Control placeholder="Invite Code"
+                                      name="inviteCode"
+                                      value={this.state.inviteCode}
+                                      onChange={this.handleInputChange} />
+                        <span style={{color: "red"}}>{this.state.validationErrors["inviteCode"]}</span>
+                    </Form.Group>
+                </Form.Row>}
             
                 <Form.Group controlId="formGridMessage">
                     <Form.Control as="textarea" 

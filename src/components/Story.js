@@ -3,6 +3,7 @@ import April2 from './../img/April2.png';
 import April5 from './../img/April5.png';
 import April15 from './../img/April15.png';
 import Together from './../img/together.jpg';
+import Holi from './../img/holi.jpeg';
 
 function Story() {
     return (
@@ -23,6 +24,7 @@ function Story() {
                     Unlike most love stories, we didn't have any interest in each other. 
                 </Card.Text>
                 </Card.Body>
+                <Card.Img variant="bottom" src={Holi} />
             </Card>
             <Card>
                 <Card.Body>
@@ -42,7 +44,7 @@ function Story() {
                         I was pretty alone there anyway - away from friends and family. 
                         I decided to meet her at the train station. I got a little late. When I met her in Manchester, the first thought that occurred to me was "Wow, she is so beautiful!". 
                         We spent a day together roaming around Manchester. The more we spoke to each other, the closer we felt to each other. 
-                        I saw the friendly, humble, jovial and bubbly side of her.
+                        I saw the friendly, humble, jovial &amp; bubbly side of her.
                     </Card.Text>
                 </Card.Body>
             </Card>
