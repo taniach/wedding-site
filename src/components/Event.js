@@ -29,7 +29,7 @@ function Event() {
                             </Card.Text>
 
                             <Card.Text>
-                                <FontAwesomeIcon icon={faMapMarkerAlt} /> Venue: Holy Tree Balasubramaniar Temple Wedding Hall<br/>
+                                <FontAwesomeIcon icon={faMapMarkerAlt} /> Venue: Holy Tree Sri Balasubramaniar Temple Wedding Hall<br/>
                                 <small>10 Yishun Industrial Park A, Singapore 768772</small><br/>
                                 <small>Nearest MRT: 3 minutes walk from Canberra station</small><br/>
                                 <small>
