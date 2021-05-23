@@ -5,9 +5,10 @@ import coverPhoto from './img/coverPhotoResized.png';
 import Image from 'react-bootstrap/Image';
 import Countdown from './components/Countdown';
 import Story from './components/Story';
-import RSVP from  './components/RSVP';
+import Gifting from './components/Gifting';
 import Event from './components/Event';
 import TagUs from './components/TagUs';
+import Livestream from './components/Livestream';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Title />
       <Countdown />
       <Image src={coverPhoto} fluid />
+      <Livestream />
+      <Gifting />
       <Event />
-      <RSVP />
       <TagUs />
       <Story />
       <Footer />

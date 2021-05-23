@@ -1,7 +1,7 @@
 import React from "react";
 
 function calculateTimeLeft() {
-  const difference = +new Date("June 4 2021 09:30") - +new Date();
+  const difference = +new Date("June 4 2021 08:30") - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
