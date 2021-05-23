@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/wedding-site/static/css/main.d421b56f.chunk.css",
-    "main.js": "/wedding-site/static/js/main.b5189509.chunk.js",
-    "main.js.map": "/wedding-site/static/js/main.b5189509.chunk.js.map",
+    "main.css": "/wedding-site/static/css/main.32c7bad0.chunk.css",
+    "main.js": "/wedding-site/static/js/main.a078a360.chunk.js",
+    "main.js.map": "/wedding-site/static/js/main.a078a360.chunk.js.map",
     "runtime-main.js": "/wedding-site/static/js/runtime-main.3dc43b01.js",
     "runtime-main.js.map": "/wedding-site/static/js/runtime-main.3dc43b01.js.map",
-    "static/js/2.0ac63618.chunk.js": "/wedding-site/static/js/2.0ac63618.chunk.js",
-    "static/js/2.0ac63618.chunk.js.map": "/wedding-site/static/js/2.0ac63618.chunk.js.map",
+    "static/js/2.35e57cc3.chunk.js": "/wedding-site/static/js/2.35e57cc3.chunk.js",
+    "static/js/2.35e57cc3.chunk.js.map": "/wedding-site/static/js/2.35e57cc3.chunk.js.map",
     "index.html": "/wedding-site/index.html",
-    "static/css/main.d421b56f.chunk.css.map": "/wedding-site/static/css/main.d421b56f.chunk.css.map",
-    "static/js/2.0ac63618.chunk.js.LICENSE.txt": "/wedding-site/static/js/2.0ac63618.chunk.js.LICENSE.txt",
+    "static/css/main.32c7bad0.chunk.css.map": "/wedding-site/static/css/main.32c7bad0.chunk.css.map",
+    "static/js/2.35e57cc3.chunk.js.LICENSE.txt": "/wedding-site/static/js/2.35e57cc3.chunk.js.LICENSE.txt",
     "static/media/April15.f2cd0b87.png": "/wedding-site/static/media/April15.f2cd0b87.png",
     "static/media/April2.df93fcd7.png": "/wedding-site/static/media/April2.df93fcd7.png",
     "static/media/April5.8f5aa0f1.png": "/wedding-site/static/media/April5.8f5aa0f1.png",
     "static/media/coverPhotoResized.1b3429d8.png": "/wedding-site/static/media/coverPhotoResized.1b3429d8.png",
     "static/media/garland.3a84a92c.jpg": "/wedding-site/static/media/garland.3a84a92c.jpg",
+    "static/media/giantGiftVouchers.97a70057.png": "/wedding-site/static/media/giantGiftVouchers.97a70057.png",
     "static/media/holi.3c991388.jpeg": "/wedding-site/static/media/holi.3c991388.jpeg",
     "static/media/phone.0af1afee.png": "/wedding-site/static/media/phone.0af1afee.png",
     "static/media/together.41dab46b.jpg": "/wedding-site/static/media/together.41dab46b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3dc43b01.js",
-    "static/js/2.0ac63618.chunk.js",
-    "static/css/main.d421b56f.chunk.css",
-    "static/js/main.b5189509.chunk.js"
+    "static/js/2.35e57cc3.chunk.js",
+    "static/css/main.32c7bad0.chunk.css",
+    "static/js/main.a078a360.chunk.js"
   ]
 }
