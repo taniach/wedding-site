@@ -10,6 +10,7 @@ import Event from './components/Event';
 import TagUs from './components/TagUs';
 import Livestream from './components/Livestream';
 import FunTrivia from './components/FunTrivia';
+import Itinerary from './components/Itinerary';
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
       <Title />
       <Countdown />
       <Image src={coverPhoto} fluid />
+      <Event />
+      <Itinerary />
       <Livestream />
       <Gifting />
-      <Event />
-      <FunTrivia />
       <TagUs />
       <Story />
+      <FunTrivia />
       <Footer />
     </div>
   );

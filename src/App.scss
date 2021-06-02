@@ -176,6 +176,15 @@ footer {
   }
 }
 
+#itinerary {
+  margin: 30px;
+
+  .event-name {
+    color: $dark-red;
+    font-size: 1.2rem;
+  }
+}
+
 #livestream {
   margin: 30px;
 }

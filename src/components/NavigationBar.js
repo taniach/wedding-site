@@ -10,9 +10,12 @@ function NavigationBar() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#event">Event</Nav.Link>
-          <Nav.Link href="#rsvp">RSVP</Nav.Link>
+          <Nav.Link href="#itinerary">Itinerary</Nav.Link>
+          <Nav.Link href="#livestream">Livestream</Nav.Link>
+          <Nav.Link href="#gifting">E-Gifting</Nav.Link>
           <Nav.Link href="#instagram">Tag Us</Nav.Link>
           <Nav.Link href="#story">Our Story</Nav.Link>
+          <Nav.Link href="#fun-trivia">Fun Trivia</Nav.Link>
         </Nav>
         <Nav>
           
