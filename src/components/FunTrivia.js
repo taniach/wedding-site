@@ -316,7 +316,25 @@ Finally, our pre-wedding photoshoot had to be canceled and it will now have to b
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                
+                <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="3" className="text-center">
+                    How can I be a virtual guest?
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="3">
+                    <Card.Body>
+                    We are just as thankful to our virtual guests as we are to guests who are present physically. This is because Covid-19 has made large gatherings impossible, so we could not have many of our friends and family. Also, because our wedding falls on a weekday and due to many of the covid19 restrictions, many of our friends and family have not been able to make it. <br/><br/>
+
+As such we decided to make sure we could<br/><br/>
+
+- Stream the main wedding virtually <br/>
+- Have a virtual meet with our virtual guests<br/>
+- Accept e-gifts here for virtual guests who want to gift us <br/><br/>
+
+If you would like to have a virtual meet, please do contact Senthil or Tania via WhatsApp or Social Media messaging to schedule a zoom meet with us. We are excited to interact with you and even take some pics with you via Zoom!
+
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
             </Accordion>
         </Container>
 
