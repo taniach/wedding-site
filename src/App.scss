@@ -187,6 +187,35 @@ footer {
     margin: 20px;
     font-size: large;
   }
+
+  img {
+    margin-bottom: 30px;
+  }
+
+  .card-title {
+    color: $dark-red;
+  }
+
+  .card {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .phone-email {
+    color: #65b32e;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+  }
+}
+
+#fun-trivia {
+  margin: 30px;
+
+  h2 {
+    font-family: 'Great Vibes', cursive;
+    color: $dark-red;
+    margin: 30px;
+  }
 }
 
 #instagram {

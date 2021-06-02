@@ -1,5 +1,5 @@
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
-import Giant from './../img/giantGiftVouchers.png';
+import { Container, Row, Col, Image, Button, Card } from 'react-bootstrap';
+import Giant from './../img/giant.png';
 
 function Gifting() {
     return (
@@ -11,10 +11,10 @@ function Gifting() {
             <Row>
                 <Col md={12}>
                 <p>Your virtual presence is the biggest gift.</p>
-                <p>If you would still like to get us a gift, here is a potential gift idea. We're very touched you're thinking of us!</p>
+                <p>If you would still like to get us a gift, here is a <em>Giant</em> gift idea. We're very touched you're thinking of us!</p>
                 </Col>
             </Row>
-            <Row className="phone">
+            <Row>
                 <Col md={12}>
                     <a href="https://giftano.com/prcs_createvc?mid=MCERF9YURJ&amp;fr=profile&amp;syscode=web" 
                     target="_blank" rel="noreferrer">
@@ -24,11 +24,23 @@ function Gifting() {
             </Row>
             <Row>
                 <Col md={12}>
-                <a href="https://giftano.com/prcs_createvc?mid=MCERF9YURJ&amp;fr=profile&amp;syscode=web" 
+                <Card>
+                        <Card.Body>
+                            <Card.Title>Details to enter</Card.Title>
+
+                            <Card.Text>
+                            Recipient's email: <span className="phone-email">senthil.tania@gmail.com</span><br/>
+                            Recipient's phone: <span className="phone-email">90882158</span>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12}>
+                    <a href="https://giftano.com/prcs_createvc?mid=MCERF9YURJ&amp;fr=profile&amp;syscode=web" 
                     target="_blank" rel="noreferrer"><Button>Get an E-Gift</Button>
-                </a>
-                <p>Giant is a supermarket in Singapore which offers everyday goods at affordable prices.</p>
-                <p>It's a one-stop shop for groceries, home and kitchen products.</p>
+                    </a>
                 </Col>
             </Row>
         </Container>

@@ -9,6 +9,7 @@ import Gifting from './components/Gifting';
 import Event from './components/Event';
 import TagUs from './components/TagUs';
 import Livestream from './components/Livestream';
+import FunTrivia from './components/FunTrivia';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Livestream />
       <Gifting />
       <Event />
+      <FunTrivia />
       <TagUs />
       <Story />
       <Footer />
