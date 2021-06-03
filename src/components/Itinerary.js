@@ -1,7 +1,7 @@
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import Decor from './../img/ShivaGanesh.JPG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarAlt, faClock, faMapMarkerAlt, faTshirt } from '@fortawesome/free-solid-svg-icons';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
 
 function Itinerary() {
     return (
@@ -17,20 +17,20 @@ function Itinerary() {
                             <Card.Title className="event-name">Start of livestream</Card.Title>
 
                             <Card.Text>
-                                <FontAwesomeIcon icon={faClock} /> Time: 8.30am SGT / 6am IST / 2.30am CEST / 8.30pm (03/06) EDT / 7.30pm (03/06) CDT / 5.30pm (03/06) PDT<br/>
+                                <FontAwesomeIcon icon={faClock} /> Time: 8.30am SGT / 6am IST<br/>
                             </Card.Text>
 
                             <Card.Title className="event-name">Registry of marriage (solemnisation)</Card.Title>
 
                             <Card.Text>
-                                <FontAwesomeIcon icon={faClock} /> Time: 8.30-9am SGT<br/>
-                                <small>A solemniser from the Registry of Marriages, Singapore, will give us the marriage certificate.</small><br/>
+                                <FontAwesomeIcon icon={faClock} /> Time: 8.30-9am SGT / 6-6.30am IST<br/>
+                                <small>We will exchange marriage vows. A solemniser from the Registry of Marriages, Singapore, will give us the marriage certificate.</small><br/>
                             </Card.Text>
 
                             <Card.Title className="event-name">Traditional marriage and rituals</Card.Title>
 
                             <Card.Text>
-                                <FontAwesomeIcon icon={faClock} /> Time: 9.30-11am SGT<br/>
+                                <FontAwesomeIcon icon={faClock} /> Time: 9.30-11am SGT / 7-8.30am IST<br/>
                                 <small>The traditional marriage will include Senthil putting the thali around Tania’s neck. The thali is a mark of respect, love and dignity which is presented to the wife by her husband during the auspicious hour of the marriage day. It is a revered symbol of Hindu marriage. In the past, the thali was a gold sacred thread but recently the thali is embedded in a gold chain which the husband puts around the wife’s neck. </small><br/>
                             </Card.Text>
                             

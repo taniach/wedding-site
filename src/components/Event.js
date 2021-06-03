@@ -25,7 +25,7 @@ function Event() {
 
                             <Card.Text>
                                 <FontAwesomeIcon icon={faClock} /> Time: 8.30am to 11am <br/>
-                                <small>Lunch will be served from 11am onwards. Food will be packed in takeaway boxes. Eating or drinking is not allowed at the venue due to Covid-19 restrictions.</small>
+                                <small>Lunch in takeaway boxes will be served from 11am onwards. Eating or drinking is not allowed at the venue due to Covid-19 restrictions.</small>
                             </Card.Text>
 
                             <Card.Text>

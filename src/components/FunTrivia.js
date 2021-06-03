@@ -1,5 +1,4 @@
-import { Container, Row, Col, Image, Button, Card, Accordion } from 'react-bootstrap';
-import Giant from './../img/giant.png';
+import { Container, Card, Accordion } from 'react-bootstrap';
 
 function FunTrivia() {
     return (
@@ -11,7 +10,7 @@ function FunTrivia() {
                 Or simply skip ahead to the questions that interest you!</p>
         </div>
         <Container>
-            <h2 className="text-center">Getting to know each other</h2>
+            <h3 className="text-center">Getting to know each other</h3>
             <Accordion>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0" className="text-center">
@@ -98,7 +97,7 @@ While we were talking, I realised we had a lot more things in common than I thou
         </Container>
 
         <Container>
-            <h2 className="text-center">During the relationship</h2>
+            <h3 className="text-center">During the relationship</h3>
             <Accordion>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0" className="text-center">
@@ -165,7 +164,7 @@ S: For me, the most memorable date was before we even got together. We went to a
         </Container>
 
         <Container>
-            <h2 className="text-center">Getting a little serious here</h2>
+            <h3 className="text-center">Getting a little serious here</h3>
             <Accordion>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0" className="text-center">
@@ -224,7 +223,7 @@ In the past, caste was used for 2 key reasons<br/><br/>
 1. Family was the only way of transferring skills. Now that has become irrelevant. <br/><br/>
 2. It gave people a “group or clan” for social security. So when they were sick or needed urgent help in case of emergency situations, they had members of their caste to turn to for help. This is irrelevant in urban areas now, where you can have insurance for security in case of emergency situations. You can also be a part of close knit social groups through your educational institutions, workplaces or even your hobby groups. <br/><br/>
 
-Endogamy is the practice of marrying within a specific social group, caste, or ethnic group, rejecting those from others as unsuitable for marriage. Endogamy is common in many cultures and ethnic groups, and <a href="https://scroll.in/article/897802/how-same-caste-marriages-persisted-for-thousands-of-years-in-india-and-are-still-going-strong" target="_blank">caste endogamy is still practiced by many Hindus in India and around the world today.</a>
+Endogamy is the practice of marrying within a specific social group, caste, or ethnic group, rejecting those from others as unsuitable for marriage. Endogamy is common in many cultures and ethnic groups, and <a href="https://scroll.in/article/897802/how-same-caste-marriages-persisted-for-thousands-of-years-in-india-and-are-still-going-strong" target="_blank" rel="noreferrer">caste endogamy is still practiced by many Hindus in India and around the world today.</a>
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
@@ -240,12 +239,12 @@ However, it is such a pity that humans made caste so divisive and hierarchical, 
 
 Surely, there can be no basis in restricting marriages on the grounds of caste. If one is worried about traditions being lost, that is an unlinked issue. Because you can have people of the same caste who choose not to learn and follow traditional practices. And you can have people of different castes who are willing to learn and follow sensible traditional practices to be passed down to the next generation. So caste should not be the main basis even for arranged marriages. <br/><br/>
 
-S: I feel caste holds no meaning in society today. and agree with <a href="https://www.youtube.com/watch?v=tZV_NBtSgG8" target="_blank">Sadhguru’s view point here</a>. If you ask someone who strongly believes in caste, why is it important to marry within caste, they will give 1 of the 3 reasons:<br/><br/>
+S: I feel caste holds no meaning in society today. and agree with <a href="https://www.youtube.com/watch?v=tZV_NBtSgG8" target="_blank" rel="noreferrer">Sadhguru’s view point here</a>. If you ask someone who strongly believes in caste, why is it important to marry within caste, they will give 1 of the 3 reasons:<br/><br/>
 
 1. Caste is important to pass down traditional practices. If the practices hold meaning rather than “to show off wealth, class or superiority”, I am sure they can be passed down from family to family regardless of caste. <br/><br/>
 2. If you need help some day, your “caste” people will help your family. I think this is the biggest lie told to believe in the caste system today. I think regardless of caste, your true friends will help you if you need help urgently. Of course if the closest friends you make are within your caste, it will seem as if your “caste people are helping you” when it is actually your closest friends. This has nothing to do with caste but with friendship. Also, almost everyone today has the ability to invest in insurance policies to financially protect themselves today, which was not there in the past. <br/><br/>
 3. There is no reason. We just believe in caste and want you to marry within the same caste as we have brought you up all our lives and want the best for you. When you know you don’t have any logical reasoning, you default to using emotions and lies to “coerce” your children into accepting the way you want things to be. If you truly want the best for your child, why would you not look into a larger pool of prospects (including and outside your caste) to find the most suitable partner for him/her? <br/><br/>
-I do hope that one day, the hindu society will come to a stage when it disregards any caste by birth just like the writer in <a href="https://medium.com/@auroraruna/dad-what-caste-does-our-family-belong-to-53d54c788d59#.hmich7br6" target="_blank">this medium article here</a>
+I do hope that one day, the hindu society will come to a stage when it disregards any caste by birth just like the writer in <a href="https://medium.com/@auroraruna/dad-what-caste-does-our-family-belong-to-53d54c788d59#.hmich7br6" target="_blank" rel="noreferrer">this medium article here</a>
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
@@ -253,7 +252,7 @@ I do hope that one day, the hindu society will come to a stage when it disregard
         </Container>
 
         <Container>
-            <h2 className="text-center">The wedding</h2>
+            <h3 className="text-center">The wedding</h3>
             <Accordion>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0" className="text-center">
@@ -269,13 +268,13 @@ However, we thought of incorporating some simple bengali rituals like putting th
 
 T: Tamil style. But we plan to incorporate some bengali rituals that I find interesting like aiburobhat, gaye holud, wearing shakha pola, wearing sindoor. <br/><br/>
 
-<a href="https://bongbride.wordpress.com/2017/11/02/bengali-wedding-rituals-part-i-aiburobhat-bengali-bridal-shower/" target="_blank">Aiburobhat</a> is a pre-wedding lavish feast prepared with the bride’s favourite items. 
+<a href="https://bongbride.wordpress.com/2017/11/02/bengali-wedding-rituals-part-i-aiburobhat-bengali-bridal-shower/" target="_blank" rel="noreferrer">Aiburobhat</a> is a pre-wedding lavish feast prepared with the bride’s favourite items. 
 
-<a href="https://en.wikipedia.org/wiki/Gaye_holud" target="_blank"> Gaye holud</a> is a ceremony where turmeric paste is applied on the bride’s face and hands, as turmeric is known to brighten the skin and give it a golden glow. 
+<a href="https://en.wikipedia.org/wiki/Gaye_holud" target="_blank" rel="noreferrer"> Gaye holud</a> is a ceremony where turmeric paste is applied on the bride’s face and hands, as turmeric is known to brighten the skin and give it a golden glow. 
 
-<a href="https://thebengalitoday.com/2020/08/Shakha-Pola-Bangles.html" target="_blank"> Shakha pola</a> is a pair of red and white bangles. 
+<a href="https://thebengalitoday.com/2020/08/Shakha-Pola-Bangles.html" target="_blank" rel="noreferrer"> Shakha pola</a> is a pair of red and white bangles. 
 
-<a href="https://www.utsavpedia.com/cultural-connections/colored-with-pride-sindoor/" target="_blank"> Sindoor</a> is a vermilion red powder worn on the hair parting. Shakha pola and sindoor are symbols of marriage.  
+<a href="https://www.utsavpedia.com/cultural-connections/colored-with-pride-sindoor/" target="_blank" rel="noreferrer"> Sindoor</a> is a vermilion red powder worn on the hair parting. Shakha pola and sindoor are symbols of marriage.  
 
                     </Card.Body>
                     </Accordion.Collapse>
@@ -287,13 +286,13 @@ T: Tamil style. But we plan to incorporate some bengali rituals that I find inte
                     <Accordion.Collapse eventKey="1">
                     <Card.Body>
                     Venue - Holy Tree Sri Balasubramaniar Temple<br/><br/>
-                    Photography - <a href="https://www.instagram.com/greymattersg/" target="_blank">Grey Matters SG</a><br/><br/>
-                    Videography - <a href="https://www.instagram.com/dumarksproductions/" target="_blank">Dumarks Productions</a><br/><br/>
-                    Decorations - <a href="https://www.instagram.com/sgspteltd/" target="_blank">Siva Ganesh Services</a><br/><br/>
-                    Bridal Makeover - <a href="https://www.instagram.com/makeupbyshirinrei/" target="_blank">Makeup by Shirin Rei</a><br/><br/>
-                    Henna - <a href="https://www.facebook.com/AashiFashion" target="_blank">AashiFashion</a><br/><br/>
+                    Photography - <a href="https://www.instagram.com/greymattersg/" target="_blank" rel="noreferrer">Grey Matters SG</a><br/><br/>
+                    Videography - <a href="https://www.instagram.com/dumarksproductions/" target="_blank" rel="noreferrer">Dumarks Productions</a><br/><br/>
+                    Decorations - <a href="https://www.instagram.com/sgspteltd/" target="_blank" rel="noreferrer">Siva Ganesh Services</a><br/><br/>
+                    Bridal Makeover - <a href="https://www.instagram.com/makeupbyshirinrei/" target="_blank" rel="noreferrer">Makeup by Shirin Rei</a><br/><br/>
+                    Henna - <a href="https://www.facebook.com/AashiFashion" target="_blank" rel="noreferrer">AashiFashion</a><br/><br/>
                     Food and Catering - Anandha Bhavan Restaurant<br/><br/>
-                    Door Gifts - Handcrafted by Tania (Bottles from <a href="https://www.idoido-weddingfavors.com/" target="_blank">Ido Ido Wedding Favours</a> and many ingredients from different vendors went into the making)
+                    Door Gifts - Handcrafted by Tania (Bottles from <a href="https://www.idoido-weddingfavors.com/" target="_blank" rel="noreferrer">Ido Ido Wedding Favours</a> and many ingredients from different vendors went into the making)
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
@@ -339,7 +338,7 @@ If you would like to have a virtual meet, please do contact Senthil or Tania via
         </Container>
 
         <Container>
-            <h2 className="text-center">Life after marriage</h2>
+            <h3 className="text-center">Life after marriage</h3>
             <Accordion>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0" className="text-center">
@@ -357,7 +356,7 @@ If you would like to have a virtual meet, please do contact Senthil or Tania via
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                     <Card.Body>
-                    S: We bought a <a href="https://www.propertyguru.com.sg/property-guides/what-is-a-bto-flat-2-6515" target="_blank">Built To Order Flat (BTO)</a> in Bukit Panjang and it should be ready by the end of 2022! Until we get our BTO, we will mostly be staying in Tania’s house. 
+                    S: We bought a <a href="https://www.propertyguru.com.sg/property-guides/what-is-a-bto-flat-2-6515" target="_blank" rel="noreferrer">Built To Order Flat (BTO)</a> in Bukit Panjang and it should be ready by the end of 2022! Until we get our BTO, we will mostly be staying in Tania’s house. 
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
@@ -393,7 +392,7 @@ T: Spending life with Senthil, working towards our career goals together, spendi
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
                     <Card.Body>
-                    T: To have a loving relationship with family, to have a big family like the Duke and Duchess of Cambridge, to bring up the little ones with good values, and to be financially free and achieve <a href="https://blog.seedly.sg/fire-financial-independence-retire-early-in-singapore/" target="_blank">“FIRE”</a> by 49. I don’t really want to stop working because I like my backend engineering job and want to progress more in this path, but I do want to achieve financial freedom and build a source of side income from investments/side business. One of my long term goals is to use our free time during our later years to work on <a href="https://heartyspices.com/" target="_blank">Hearty Spices</a> and bring better long term health to people around the world. <br/><br/>
+                    T: To have a loving relationship with family, to have a big family like the Duke and Duchess of Cambridge, to bring up the little ones with good values, and to be financially free and achieve <a href="https://blog.seedly.sg/fire-financial-independence-retire-early-in-singapore/" target="_blank" rel="noreferrer">“FIRE”</a> by 49. I don’t really want to stop working because I like my backend engineering job and want to progress more in this path, but I do want to achieve financial freedom and build a source of side income from investments/side business. One of my long term goals is to use our free time during our later years to work on <a href="https://heartyspices.com/" target="_blank" rel="noreferrer">Hearty Spices</a> and bring better long term health to people around the world. <br/><br/>
 
 S: My long term goals are mostly similar to that of Tania’s! I also have a desire to revamp entrepreneurship education in Singapore and have the ability to invest in and mentor startups one day. I would enjoy going on relaxing trips and travelling around the world too.
 
