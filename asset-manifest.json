@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wedding-site/static/css/main.da3c4760.chunk.css",
-    "main.js": "/wedding-site/static/js/main.4c83fc9a.chunk.js",
-    "main.js.map": "/wedding-site/static/js/main.4c83fc9a.chunk.js.map",
+    "main.js": "/wedding-site/static/js/main.bd98691b.chunk.js",
+    "main.js.map": "/wedding-site/static/js/main.bd98691b.chunk.js.map",
     "runtime-main.js": "/wedding-site/static/js/runtime-main.3dc43b01.js",
     "runtime-main.js.map": "/wedding-site/static/js/runtime-main.3dc43b01.js.map",
     "static/js/2.f5a3e7dc.chunk.js": "/wedding-site/static/js/2.f5a3e7dc.chunk.js",
@@ -13,22 +13,34 @@
     "static/media/April15.f2cd0b87.png": "/wedding-site/static/media/April15.f2cd0b87.png",
     "static/media/April2.df93fcd7.png": "/wedding-site/static/media/April2.df93fcd7.png",
     "static/media/April5.8f5aa0f1.png": "/wedding-site/static/media/April5.8f5aa0f1.png",
+    "static/media/BluKouzina.6e8c38d9.jpeg": "/wedding-site/static/media/BluKouzina.6e8c38d9.jpeg",
     "static/media/Bus.64a533d7.jpeg": "/wedding-site/static/media/Bus.64a533d7.jpeg",
-    "static/media/Ireland.b496ac0f.JPG": "/wedding-site/static/media/Ireland.b496ac0f.JPG",
+    "static/media/Edinburgh.5c861bd2.jpeg": "/wedding-site/static/media/Edinburgh.5c861bd2.jpeg",
+    "static/media/HeartySpices.480068b0.jpeg": "/wedding-site/static/media/HeartySpices.480068b0.jpeg",
+    "static/media/Ireland.86c14133.jpeg": "/wedding-site/static/media/Ireland.86c14133.jpeg",
+    "static/media/ShivaGanesh.951187fb.jpeg": "/wedding-site/static/media/ShivaGanesh.951187fb.jpeg",
+    "static/media/Sindoor.d91c67cd.jpeg": "/wedding-site/static/media/Sindoor.d91c67cd.jpeg",
+    "static/media/beach.ea3007b0.jpeg": "/wedding-site/static/media/beach.ea3007b0.jpeg",
     "static/media/coverPhotoResized.1b3429d8.png": "/wedding-site/static/media/coverPhotoResized.1b3429d8.png",
+    "static/media/family.172403eb.jpeg": "/wedding-site/static/media/family.172403eb.jpeg",
     "static/media/garland.3a84a92c.jpg": "/wedding-site/static/media/garland.3a84a92c.jpg",
     "static/media/giant.39a0f784.png": "/wedding-site/static/media/giant.39a0f784.png",
     "static/media/goBack.c505de6d.png": "/wedding-site/static/media/goBack.c505de6d.png",
+    "static/media/hands.14ed7763.jpeg": "/wedding-site/static/media/hands.14ed7763.jpeg",
     "static/media/holi.3c991388.jpeg": "/wedding-site/static/media/holi.3c991388.jpeg",
     "static/media/meetingNext.5f3f1293.jpeg": "/wedding-site/static/media/meetingNext.5f3f1293.jpeg",
+    "static/media/occupation.770a2914.jpeg": "/wedding-site/static/media/occupation.770a2914.jpeg",
     "static/media/phone.0af1afee.png": "/wedding-site/static/media/phone.0af1afee.png",
+    "static/media/relationships.f9ab7fe2.jpeg": "/wedding-site/static/media/relationships.f9ab7fe2.jpeg",
+    "static/media/sadhguru.23c70885.jpeg": "/wedding-site/static/media/sadhguru.23c70885.jpeg",
     "static/media/saveTheDate.240c0a58.jpg": "/wedding-site/static/media/saveTheDate.240c0a58.jpg",
+    "static/media/temple.e02cc908.jpeg": "/wedding-site/static/media/temple.e02cc908.jpeg",
     "static/media/together.41dab46b.jpg": "/wedding-site/static/media/together.41dab46b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3dc43b01.js",
     "static/js/2.f5a3e7dc.chunk.js",
     "static/css/main.da3c4760.chunk.css",
-    "static/js/main.4c83fc9a.chunk.js"
+    "static/js/main.bd98691b.chunk.js"
   ]
 }
