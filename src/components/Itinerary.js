@@ -1,5 +1,6 @@
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import Decor from './../img/ShivaGanesh.JPG';
+import SaveTheDate from './../img/saveTheDate.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 
@@ -55,6 +56,7 @@ function Itinerary() {
                     <Image src={Decor} rounded fluid />
                 </Col>
             </Row>
+            <Row><Col><Image className="smallimg" src={SaveTheDate} rounded fluid /></Col></Row>
         </Container>
     </section>
     );

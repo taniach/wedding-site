@@ -38,10 +38,6 @@ function Event() {
                                     </a>
                                 </small>
                             </Card.Text>
-
-                            <Card.Text>
-                                <FontAwesomeIcon icon={faTshirt} /> Dress code: Formals/traditional Indian attire
-                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
