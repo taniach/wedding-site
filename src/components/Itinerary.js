@@ -1,5 +1,4 @@
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
-import Decor from './../img/ShivaGanesh.JPG';
 import SaveTheDate from './../img/saveTheDate.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
@@ -47,16 +46,14 @@ function Itinerary() {
 
                             <Card.Text>
                                 <FontAwesomeIcon icon={faClock} /> Time: 11.30am-1pm SGT<br/>
-                                <small>Eating and drinking at the venue is not allowed due to Covid Phase 2 (Heightened Alert). Please enjoy the meal at the comfort of your home.</small><br/>
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col md={6} sm={12}>
-                    <Image src={Decor} rounded fluid />
+                    <Image src={SaveTheDate} rounded fluid />
                 </Col>
             </Row>
-            <Row><Col><Image className="smallimg" src={SaveTheDate} rounded fluid /></Col></Row>
         </Container>
     </section>
     );
