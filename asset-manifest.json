@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wedding-site/static/css/main.7b2dd03e.chunk.css",
-    "main.js": "/wedding-site/static/js/main.7686f919.chunk.js",
-    "main.js.map": "/wedding-site/static/js/main.7686f919.chunk.js.map",
+    "main.css": "/wedding-site/static/css/main.da3c4760.chunk.css",
+    "main.js": "/wedding-site/static/js/main.96d98d6b.chunk.js",
+    "main.js.map": "/wedding-site/static/js/main.96d98d6b.chunk.js.map",
     "runtime-main.js": "/wedding-site/static/js/runtime-main.3dc43b01.js",
     "runtime-main.js.map": "/wedding-site/static/js/runtime-main.3dc43b01.js.map",
     "static/js/2.b089c9dd.chunk.js": "/wedding-site/static/js/2.b089c9dd.chunk.js",
     "static/js/2.b089c9dd.chunk.js.map": "/wedding-site/static/js/2.b089c9dd.chunk.js.map",
     "index.html": "/wedding-site/index.html",
-    "static/css/main.7b2dd03e.chunk.css.map": "/wedding-site/static/css/main.7b2dd03e.chunk.css.map",
+    "static/css/main.da3c4760.chunk.css.map": "/wedding-site/static/css/main.da3c4760.chunk.css.map",
     "static/js/2.b089c9dd.chunk.js.LICENSE.txt": "/wedding-site/static/js/2.b089c9dd.chunk.js.LICENSE.txt",
     "static/media/April15.f2cd0b87.png": "/wedding-site/static/media/April15.f2cd0b87.png",
     "static/media/April2.df93fcd7.png": "/wedding-site/static/media/April2.df93fcd7.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.3dc43b01.js",
     "static/js/2.b089c9dd.chunk.js",
-    "static/css/main.7b2dd03e.chunk.css",
-    "static/js/main.7686f919.chunk.js"
+    "static/css/main.da3c4760.chunk.css",
+    "static/js/main.96d98d6b.chunk.js"
   ]
 }
