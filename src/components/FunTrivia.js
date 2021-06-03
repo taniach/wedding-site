@@ -1,4 +1,8 @@
-import { Container, Card, Accordion } from 'react-bootstrap';
+import { Container, Card, Accordion, Image } from 'react-bootstrap';
+import MeetingNext from './../img/meetingNext.jpeg';
+import GoBack from './../img/goBack.png';
+import Bus from './../img/Bus.jpeg';
+import Ireland from './../img/Ireland.JPG';
 
 function FunTrivia() {
     return (
@@ -53,11 +57,15 @@ function FunTrivia() {
 
 Tania’s story of how she ended up traveling to Manchester is a lot more intriguing! <br/><br/>
 
+<Image src={MeetingNext} rounded fluid /><br/><br/>
+
 T: A racist in the UK led me to be with Senthil today. I was on a student exchange programme for a semester in Edinburgh. During the Easter holidays, I wanted to travel to a few countries in Europe with the other students from NUS who were on the exchange programme too. As I was a Singapore PR at that point of time, I needed a Schengen visa to travel. I even needed to show confirmed flight and hotel bookings to get that visa. So I booked a trip to Iceland with a friend, then went to London to apply for this visa. <br/><br/>
 
 However, what happened in London shocked and disappointed me tremendously. Though I fulfilled all the criteria to apply for the visa and brought all the documents to the visa office, I was rejected by a rude and racist visa officer. <br/><br/>
 
 "You're an Indian! Go back to India" she screamed. <br/><br/>
+
+<Image src={GoBack} rounded fluid /><br/><br/>
 
 I said, "No, I'm a student at the University of Edinburgh and I came from Singapore". <br/><br/>
 
@@ -82,7 +90,11 @@ When planning a 1 day stay in Manchester, I remembered that there was an acquain
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
                     <Card.Body>
-                    T: My first impression of Senthil was that he was quite boring and introverted but nice. When I met Senthil, I realised he was also very kind and gentlemanly when he offered to buy me a full day bus ticket in Manchester and asked me my preferences for dinner. I was quite happy as in the past, not many people asked me what I liked and cared much about my preferences. So I would usually end up going with the majority without having any say. <br/><br/>
+                    T: My first impression of Senthil was that he was quite boring and introverted but nice. When I met Senthil, I realised he was also very kind and gentlemanly when he offered to buy me a full day bus ticket in Manchester and asked me my preferences for dinner. <br/><br/>
+                    
+                    <Image src={Bus} rounded fluid /><br/><br/>
+
+                    I was quite happy as in the past, not many people asked me what I liked and cared much about my preferences. So I would usually end up going with the majority without having any say. <br/><br/>
 
 He even told me you're a North Indian, shall we go to a North Indian restaurant for dinner? It made me feel very special that he suggested that, as it made me comfortable that I can be who I am without being pressured to "fit in". As we started talking more and more that day, I also realised he was a lot more friendly and fun and that I had partly misjudged him earlier. <br/><br/>
 
@@ -262,7 +274,7 @@ I do hope that one day, the hindu society will come to a stage when it disregard
                     <Card.Body>
                     S: Me and Tania decided to let my parents decide the type of wedding they would like us to have. The most crucial aspects of the wedding, such as the wedding date, time and venue and key rituals to be done, were planned by them. <br/><br/>
 
-The traditional marriage will include me putting the thali around Tania’s neck. The thali is a mark of respect, love and dignity which is presented to the wife by her husband during the auspicious hour of the marriage day. It is a revered symbol of Hindu marriage. In the past, the thali was a gold sacred thread but recently the thali is embedded in a gold chain which the husband puts around the wife’s neck. <br/><br/>
+The traditional marriage will include me putting the thali around Tania’s neck. The thali is a mark of respect, love and dignity which is presented to the wife by her husband during the auspicious hour of the marriage day. It is a revered symbol of Hindu marriage. In the past, the thali was a gold sacred thread but recently the thali is often Sembedded in a gold chain which the husband puts around the wife’s neck. <br/><br/>
 
 However, we thought of incorporating some simple bengali rituals like putting the sindhoor and also have a bengali style photoshoot!<br/><br/>
 
@@ -327,10 +339,9 @@ As such we decided to make sure we could<br/><br/>
 
 - Stream the main wedding virtually <br/>
 - Have a virtual meet with our virtual guests<br/>
-- <a href="https://giftano.com/prcs_createvc?mid=MCERF9YURJ&amp;fr=profile&amp;syscode=web" 
-                    target="_blank" rel="noreferrer">Accept e-gifts here</a> for virtual guests who want to gift us <br/><br/>
+- <a href="#gifting">Accept e-gifts here</a> for virtual guests who want to gift us <br/><br/>
 
-If you would like to have a virtual meet, please do contact Senthil or Tania via WhatsApp or Social Media messaging to schedule a zoom meet with us. We are excited to interact with you and even take some pics with you via Zoom!
+If you would like to have a virtual meet, please do contact Senthil or Tania via WhatsApp or Social Media message to schedule a zoom meet with us. We are excited to interact with you and even take some pics with you via Zoom!
 
                     </Card.Body>
                     </Accordion.Collapse>
