@@ -327,7 +327,8 @@ As such we decided to make sure we could<br/><br/>
 
 - Stream the main wedding virtually <br/>
 - Have a virtual meet with our virtual guests<br/>
-- Accept e-gifts here for virtual guests who want to gift us <br/><br/>
+- <a href="https://giftano.com/prcs_createvc?mid=MCERF9YURJ&amp;fr=profile&amp;syscode=web" 
+                    target="_blank" rel="noreferrer">Accept e-gifts here</a> for virtual guests who want to gift us <br/><br/>
 
 If you would like to have a virtual meet, please do contact Senthil or Tania via WhatsApp or Social Media messaging to schedule a zoom meet with us. We are excited to interact with you and even take some pics with you via Zoom!
 
