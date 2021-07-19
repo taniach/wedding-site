@@ -1,7 +1,7 @@
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import Garland from './../img/garland.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarAlt, faClock, faMapMarkerAlt, faTshirt } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt, faClock, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 function Event() {
     return (
