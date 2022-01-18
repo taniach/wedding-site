@@ -22,7 +22,6 @@ function App() {
       <Event />
       <Itinerary />
       <Livestream />
-      <Gifting />
       <TagUs />
       <Story />
       <FunTrivia />
